@@ -1,6 +1,7 @@
 langchain
 bs4
 trafilatura
+torch==1.7.0
 bertopic
 openai
 pivottablejs
