@@ -9,3 +9,4 @@ IPython
 tiktoken
 faiss-cpu
 google-search-results
+matplotlib
