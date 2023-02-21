@@ -1,0 +1,6 @@
+langchain
+bs4
+trafilatura
+bertopic
+openai
+pivottablejs
