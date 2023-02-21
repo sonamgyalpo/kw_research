@@ -5,3 +5,4 @@ torch
 bertopic==0.13.0
 openai
 pivottablejs
+IPython
