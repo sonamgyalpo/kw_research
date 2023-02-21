@@ -6,3 +6,6 @@ bertopic==0.13.0
 openai
 pivottablejs
 IPython
+tiktoken
+faiss-cpu
+google-search-results
