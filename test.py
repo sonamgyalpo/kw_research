@@ -23,7 +23,6 @@ from pivottablejs import pivot_ui
 
 tab1, tab2,tab3 = st.tabs(["Data extraction", "Model","Others"])
 
-os.environ["OPENAI_API_KEY"] = st.input("Enter OpenAI API Key")
 import streamlit as st
 
 with tab1:
@@ -103,6 +102,7 @@ with tab1:
 with tab2:
     
     # URL of the webpage to scrape
+    os.environ["OPENAI_API_KEY"] = st.text_input("Enter OpenAI API Key")
     url = st.text_input("Enter URL")
     article = st.text_input("Enter Keyword")
     agree = st.checkbox('Start')
