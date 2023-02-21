@@ -2,6 +2,6 @@ langchain
 bs4
 trafilatura
 torch
-bertopic
+bertopic==0.13.0
 openai
 pivottablejs
